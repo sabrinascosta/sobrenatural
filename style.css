@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    border: solid 6px palevioletred;
+    background-color: ghostwhite;
+    padding: 10px;
+    text-align: center;
+    /* Tipografia */
+    font-family: "Idiqlat", serif;
+    font-size: 70px;
+    color: pink;
+
+}
+button{
+    border: solid 3px palevioletred;
+    background-color: pink;
+    padding: 10px;
+    font-size: 25px;
+    margin: auto;
+    display: block;
+}
+/* Estados do botão com Pseudoclasse */
+/* hover -> posiciona o cursor do mouse */
+button:hover{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    scale: 1.5;
+
+    transition: all 1s ease;
+}
+/* active -> dispara na pressão do clique */
+button:active{
+    background-color: lightcoral;
+}
